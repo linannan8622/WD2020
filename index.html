@@ -97,7 +97,7 @@
             <div class="col-md-12">
               <div class="right-btns">
                 <button class="btn btn-default add-stu-btn" data-toggle="modal" data-target="#myModal">添加</button>
-                <button class="btn btn-info stu-title">编辑</button>
+                <button class="btn btn-info">编辑</button>
                 <button class="btn btn-danger">删除</button>
                 <button class="btn btn-success">账号授权</button>
               </div>
@@ -331,6 +331,8 @@
         }
         $('.student-info').html(studentContent);
       }
+
+      // $('.stu-check').click
 
       // 获取学生在本班级中的序号
       $('.student-info').delegate('.btn-index', 'click', function() {
